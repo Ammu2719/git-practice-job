@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('git clone') {
             steps {
-                git 'https://github.com/kishore5632/job_portal'
+                git 'https://github.com/Ammu2719/git-practice-job.git'
             }
         }
         stage('Test') {
